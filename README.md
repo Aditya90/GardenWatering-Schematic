@@ -1,8 +1,12 @@
 # Readme
 
+![Image of Schematic](MotorControlSchematic_bb.png)
+
+This project adheres to an [MIT License](LICENSE).
+
 ## About
 
-The circuit in this project connects a DHT22 sensor and a DC motor to particle photon. The readings from the sensor is reported to the users particle cloud and can be viewed on the dashboard. The motor can be controlled through the cloud interface as well, and there is an app which can be used for this purpose.
+The circuit in this project connects a DHT22 sensor and a DC motor to a Particle Photon. The readings from the sensor are reported to the users particle cloud and can be viewed on the dashboard. The motor can be controlled through the cloud interface as well, and there is an app which can be used for this purpose.
 
 ## Parts
 
