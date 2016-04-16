@@ -23,7 +23,3 @@ The circuit in this project connects a DHT22 sensor and a DC motor to a Particle
 
 1. [Particle Photon Firmware](https://github.com/Aditya90/GardenWatering-Firmware)
 2. [Ionic app for control](https://github.com/Aditya90/GardenWatering-WebUi)
-
-## Credits
-1. [DHT 22 Drivers - PietteTech](https://github.com/piettetech/PietteTech_DHT)
-2. [Ionic app - Santhosh Kumar Balakrishnan](http://bsanth.github.io/)
