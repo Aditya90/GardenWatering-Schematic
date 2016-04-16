@@ -1,0 +1,37 @@
+# Transistor as a switch resistor selection
+
+## Preparation
+
+The first steps when selecting a transistor as a switch is to make sure that the maximum ratings of the transistor and within the limits of your application.
+
+For the TIP31C, I have the following values :
+
+```
+Ic 
+Ib_max = 1A
+Veb
+Vce
+Vcb
+```
+
+Next, we need to consider the effects of the load we are trying to control. Let us consider the circuit shown below :-
+
+![Motor-Control-Schematic]()
+
+In this case, let us consider the following values
+
+```
+Source Voltage, Vs = +5V
+Resistance of the load, Rl = 200 ohm
+For our application, we assume the maximum base current, Ib = 50mA
+The voltage output from the micro pin, Vm = +3.3 Vcb
+```
+
+For the load, the required current draw for optimal power is 
+
+```
+Ic = Vs / Rl
+   = 5/200 = 25 maA
+```
+
+Therefore, the minmum current gain 
